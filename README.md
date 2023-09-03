@@ -53,8 +53,8 @@ To get the CRM App up and running locally, follow these simple steps:
        'default': {
            'ENGINE': 'django.db.backends.mysql',
            'NAME': 'crm_db',
-           'USER': 'your_db_username',
-           'PASSWORD': 'your_db_password',
+           'USER': 'root',
+           'PASSWORD': 'db_password',
            'HOST': 'localhost',
            'PORT': '3306',
        }
